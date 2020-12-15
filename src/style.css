@@ -128,6 +128,11 @@
   flex-direction: column;
 }
 
+.vertical-nav-element {
+  font-size: 14px;
+  line-height: 2.45;
+}
+
 .vertical-nav-item:hover {
   color: #383838;
   background-color: white;
@@ -135,10 +140,12 @@
   cursor: pointer;
 }
 
-.vertical-nav-item {
-  font-size: 14px;
-  color: white;
-  line-height: 2.46;
+.vertical-nav-item { 
+  width: 200px;
+  height: 33.7px;
+  color: #fff;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .text-content {
